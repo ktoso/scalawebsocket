@@ -9,6 +9,7 @@ object BuildSettings {
     name := "scalawebsocket",
     version := "0.1.1",
     scalaVersion := "2.10.1",
+    crossScalaVersions := Seq("2.10.2", "2.10.3"),
     publishMavenStyle := true,
     publishTo <<= version {
       (v: String) =>
